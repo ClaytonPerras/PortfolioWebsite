@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Clayton Perras Front-End Engineer</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="index.html"><img src="pictures/logo.png" alt="" class="navbar-brand" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about-me">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#to-projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron jumbotron-fluid mb-0 pb-0 bg-white">
+    <div class="container">
+      <h1 class="display-4" id="font-bold">
+        Front-End Engineer
+      </h1>
+      <p class="lead">
+        I like to code and solve problems.
+      </p>
+      <img id="tech-man" src="pictures/iconfinder_162-man-technologist-2_3099414.png" class="d-block mx-auto"></img>
+      <img id="computers" src="pictures/iconfinder_imac_1291756.png" class="d-block mx-auto"></img>
+    </div>
+  </div>
+  <div class="container-fluid pl-0 pr-0">
+    <section class="intro" id="about-me">
+      <div class="intro-text">
+        <h2>
+          Hi, I'm Clayton Perras.
+        </h2>
+        <p>
+          I am a senior earning a B.S. in Computer and Information Technology with a minor in Communications at Purdue
+          University.
+        </p>
+        <p>
+          My journey as a software developer began in a python introduction course as a junior in high school. I have
+          always had a creative mind but my drawing, painting, and sculpting skills are disastrous.
+          While coding in python, I felt like an artist. I watched my projects come to life.
+          I watched my code turn my thoughts and ideas into a working machine. I immediately fell in love.
+          Software development has given me a creative outlet to
+          express my
+          thoughts, ideas, and passions through code.
+        </p>
+      </div>
+    </section>
+  </div>
+  <!-- Skills showcase section -->
+  <section class="skills">
+    <div class="skills-text">
+      <img src="pictures/iconfinder_1_1720372.png" alt="JavaScript logo" class="skills-logo" id="javascript-logo">
+      <img src="pictures/react.png" alt="React JS logo" class="skills-logo" id="react-logo">
+      <h2 id="h2-space" class="title">My Skills</h2>
+    </div>
+    <div class="row centered">
+      <div class="col-sm-4">
+        <h3>Languages</h3>
+        <p>HTML5</p>
+        <p>CSS3</p>
+        <p>JavaScript</p>
+        <!-- <p>Node.js</p> -->
+        <p>Java</p>
+        <p>SQL</p>
+        <p>C</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Libraries/Frameworks</h3>
+        <p>React</p>
+        <p>Bootstrap</p>
+        <p>jQuery</p>
+        <p>Axios</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Other Technologies</h3>
+        <p>Divi Theme Builder</p>
+        <p>VS Code</p>
+        <p>Terminal</p>
+        <p>Git</p>
+        <p>Github</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="container text-center">
+    <section class="projects" id="to-projects">
+      <h2>My Projects</h2>
+      <p id="p-space">Feel free to explore what I've been working on recently. Want to see more? Email me.
+        <span class="color">
+          claytonperras@gmail.com
+        </span>
+    </section>
+  </div>
+  <!-- Grid of Cards for Projects -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="card text-center">
+          <div class="card-body">
+            <video controls>
+              <source src="contact-form-demo.mov" type="video/mp4">
+            </video>
+            <p>A form page with JavaScript validation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card text-center">
+          <div class="card-body">
+            <video controls>
+              <source src="DemoVideo_QuickCast.mp4" type="video/mp4">
+            </video>
+            <p>Android fully customizable weather application using Open Weather API.</p>
+          </div>
+          <div class="card-body">
+            <video controls>
+              <source src="poketrack_demo.mov" type="video/mp4">
+            </video>
+            <p>A web app that allows users to search for a Pokemon by name and displays that Pokemon's sprite and name
+              using
+              PokeApi and axios.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
